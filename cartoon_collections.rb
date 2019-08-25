@@ -12,11 +12,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long.any do |short_words|
-    if short_words.length > 4
-      return true
-    else
-      return false
-    end
+    short_words.length > 4
   end
 end
 
