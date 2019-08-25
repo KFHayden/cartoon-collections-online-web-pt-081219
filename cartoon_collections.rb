@@ -11,7 +11,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.find{|short_words| short_words < 4}
+  calls_long.find{|short_words| short_words.length < 4}
 end
 
 def find_the_cheese(no_cheese)
