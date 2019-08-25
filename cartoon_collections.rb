@@ -8,7 +8,6 @@ def summon_captain_planet(veggies)
   veggies.map do |calls|
     "#{calls.capitalize}"
   end
-  calls + !
 end
 
 def long_planeteer_calls(calls_long)
