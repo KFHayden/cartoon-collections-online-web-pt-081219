@@ -11,7 +11,9 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  calls_long.find
+  calls_long.find do |calls|
+    "#{calls}"
+  end
 end
 
 def find_the_cheese(no_cheese)
