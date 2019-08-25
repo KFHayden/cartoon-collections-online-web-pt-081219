@@ -11,7 +11,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
-  # Your code here
+  
 end
 
 def find_the_cheese(no_cheese)
