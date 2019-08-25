@@ -1,9 +1,5 @@
 def roll_call_dwarves(dwarves)
-  counter = 0
-  dwarves.each do |i|
-    puts roll_call_dwarves(i) + 1
-    counter += 1
-  end
+  puts roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
