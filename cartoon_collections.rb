@@ -17,6 +17,7 @@ def long_planeteer_calls(calls_long)
     else
       false
     end
+  end
 end
 
 def find_the_cheese(no_cheese)
