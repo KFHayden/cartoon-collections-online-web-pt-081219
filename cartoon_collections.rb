@@ -15,7 +15,7 @@ def long_planeteer_calls(calls_long)
     short_words.length >= 4
   end
   calls_long.all? do |short_words|
-    short_words.length >= 4
+    short_words.length > 4
   end
 end
 
