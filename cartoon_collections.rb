@@ -16,6 +16,7 @@ def long_planeteer_calls(calls_long)
   end
   calls_long.all? do |short_words|
     short_words.length >= 4
+  end
 end
 
 def find_the_cheese(no_cheese)
