@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  
+  veggies.map do |calls|
+    "#{calls}"
+  end
 end
 
 def long_planeteer_calls(calls_long)
