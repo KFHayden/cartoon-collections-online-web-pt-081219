@@ -17,7 +17,7 @@ def long_planeteer_calls(calls_long)
     else
       return true
     end
-    short_words.all > 4
+    short_words.all.length > 4
   end
 end
 
